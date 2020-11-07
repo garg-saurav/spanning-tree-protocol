@@ -21,4 +21,4 @@ distance d from the root.<br><br> This is followed by the forwarding tables at e
 `t s|r Bk X --> Y` which means at time t, at Bridge Bk, a packet arrived (r) or was sent (s), where the packet source address was on LAN X and packet destination address was on LAN Y.
 
 ### License
-This project is licensed under the MIT License. See the [LICENSE](./License.txt) file for the full license text.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE.txt) file for the full license text.
