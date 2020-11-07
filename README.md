@@ -7,7 +7,7 @@ Compilation command:
 `g++ -o bsim main.cpp bridgesim.cpp bridge.cpp`
 
 Running with input file:
-`./bsim < inp1`
+`./bsim < ./Input/inp1`
 
 ### Input format
 See example input files given in [Input](./Input/) folder.
