@@ -19,3 +19,6 @@ This is follwed by a list of host IDs per LAN and a set of data transfers.
 Each of the line contains a bridge name followed by the state of each port. State will be one of DP for designated port, RP for root port and NP for null port. If trace is ON, each of the output line in the trace is of the format `t s|r Bk (Bi, d, Bj)` Here t is time, Bk is the node ID, and (Bi, d, Bj) is the message indicating that Bridge Bj thinks Bridge Bi is the root and it is at a
 distance d from the root.<br><br> This is followed by the forwarding tables at each bridge after each data transfer. Again, if the trace is ON. Each of the trace output line is of the format 
 `t s|r Bk X --> Y` which means at time t, at Bridge Bk, a packet arrived (r) or was sent (s), where the packet source address was on LAN X and packet destination address was on LAN Y.
+
+### License
+This project is licensed under the MIT License. See the [LICENSE](./License.txt) file for the full license text.
